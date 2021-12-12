@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/brands.min.css"
+    integrity="sha512-sVSECYdnRMezwuq5uAjKQJEcu2wybeAPjU4VJQ9pCRcCY4pIpIw4YMHIOQ0CypfwHRvdSPbH++dA3O4Hihm/LQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css"
+    integrity="sha512-P9vJUXK+LyvAzj8otTOKzdfF1F3UYVl13+F8Fof8/2QNb8Twd6Vb+VD52I7+87tex9UXxnzPgWA3rH96RExA7A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Spinnaker&display=swap" rel="stylesheet">
+  <style>
+  
+  * {
+    font-family: 'Spinnaker';
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: 'Lato';
+  }
+  a {
+    color: #5D5D5D;
+    font-weight: 600;
+    text-decoration: none;
+    width: 100%;
+    position: relative;
+  }
+  a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 2px;
+    right: 0;
+    background: #5D5D5D;
+    transition: 0.4s ease;
+  }
+  a:hover::after {
+    width: 100%;
+    left: 0;
+    background-color: #5D5D5D;
+  }
+  table {
+    table-layout: fixed;
+    width: 60%;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  th,
+  td {
+    border: 1px solid grey;
+    padding: 10px;
+    height: auto;
+  }
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  form {
+    width: 58%;
+    border: 1px solid grey;
+    margin-top: 2em;
+    background-color: #f2f2f2;
+    padding: 0.9em;
+  }
+  .reviewTitle {
+    display: block;
+    font-weight: 800;
+  }
+  textarea {
+    display: block;
+    margin: 1em 0em;
+    width: 95%;
+    height: 10em;
+    resize: none;
+    font-size: 14px;
+    padding: 1em;
+  }
+  ::-webkit-input-placeholder {
+    font-size: 14px;
+  }
+  </style>
+</head>
+<body>
+    {{{body}}}
+</body>
+</html>
